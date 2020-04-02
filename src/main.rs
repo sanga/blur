@@ -56,7 +56,7 @@ fn main() {
             255u8
         };
 
-        blurred.save_with_format(output, ImageFormat::PNG).unwrap();
+        blurred.save_with_format(output, ImageFormat::Png).unwrap();
         if textclr == 0u8 {
             println!("bright")
         } else {

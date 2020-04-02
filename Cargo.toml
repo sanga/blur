@@ -7,5 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-image = "0.22"
-imageproc = "0.19"
+image = "0.23"
+imageproc = "0.20"
+
+[profile.release]
+debug = true
