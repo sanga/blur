@@ -45,7 +45,6 @@ version = "0.1.0"
 dependencies = [
  "image",
  "imageproc",
- "rusttype 0.8.2",
 ]
 
 [[package]]
